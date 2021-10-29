@@ -27,3 +27,7 @@ with open(file_name, 'w') as file:
     file.write(json_string_1)
     file.write(json_string_2)
     file.close()
+
+    
+# how to solve json standard only allows one top level value
+## combine as [{obj1], {obj2}] to use them in the same json file
