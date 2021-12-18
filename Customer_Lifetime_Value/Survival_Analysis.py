@@ -411,3 +411,12 @@ plt.show()
 CTE = kmf.conditional_time_to_event_
 plt.plot(CTE)
 plt.show()
+
+
+
+
+
+
+Ref:
+https://pub.towardsai.net/survival-analysis-with-python-tutorial-how-what-when-and-why-19a5cfb3c312
+https://lifelines.readthedocs.io/en/latest/index.html
