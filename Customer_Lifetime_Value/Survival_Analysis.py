@@ -259,15 +259,13 @@ plt.show()
 
 
 
-# Part 3 Log-Rank test to compare the survival curves of two or more groups
-# Goal: Our goal is to see if there is any significant difference between the groups being compared.
-
-# Null Hypothesis:
-# The null hypothesis states that there is no significant difference between the groups being studied.
-# If there is a significant difference between those groups, then we have to reject our null hypothesis.
+# Part 3 Log-Rank test is to test the null hypothesis of no difference in survival between two or more independent groups. 
+# The test compares the entire survival experience between groups, 
+# and can be thought of as a test of whether the survival curves are identical (overlapping) or not. 
+# Null Hypothesis: no significant difference between the groups being studied.
 # A p-value between 0 and 1 denotes the statistical significance.
 # The smaller the p-value, the more significant the statistical difference between groups being studied is.
-# Less than (5% = 0.05) P-value means a significant difference between the groups we compared.
+# Less than (5% = 0.05) P-value means do not reject null hypothesis at level of 5% CI.
 
 
 # Define variables for log-rank test
@@ -297,12 +295,9 @@ print('P-value_bt:', results_bt.p_value)
 print('P-value_tm:', results_tm.p_value)
 
 
-# all p-value are less than 0.05
-# which denotes that we have to reject the null hypothesis,
-# significantly different for all three plans in survival probability
-
-
-# In short, rate_plan of a customer makes a significant difference in survival probability
+# All p-value are less than 0.05,
+# which denotes that there is NOT ENOUGH evidence to reject the null hypothesis AKA
+# suggesting the significantly different for all three plans in survival probability
 
 
 
