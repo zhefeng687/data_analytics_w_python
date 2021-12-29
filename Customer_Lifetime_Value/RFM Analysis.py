@@ -62,7 +62,6 @@ for n in range(1,21):
     kmeans = KMeans(n_clusters=n, random_state=42).fit(df_r)
     # The lowest Error Sum of Squares(SSE) value
     SSE.append(kmeans.inertia_)
-    # The number of iterations required to converge
     print(SSE)
 
 
@@ -98,7 +97,6 @@ for n in range(1,21):
     kmeans = KMeans(n_clusters=n, random_state=42).fit(df_f.to_numpy())
     # The lowest Error Sum of Squares(SSE) value
     SSE.append(kmeans.inertia_)
-    # The number of iterations required to converge
     print(SSE)
 
 
@@ -128,7 +126,6 @@ for n in range(1,21):
     kmeans = KMeans(n_clusters=n, random_state=42).fit(df_m.to_numpy())
     # The lowest Error Sum of Squares(SSE) value
     SSE.append(kmeans.inertia_)
-    # The number of iterations required to converge
     print(SSE)
 
 
