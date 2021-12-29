@@ -1,3 +1,3 @@
 Data Analytics in Practice
-Customer Lifetime Value 
-RFM Analysis; Survival Analysis; Cohort Analysis; Churn / CLV Prediction
+<p>1. Customer Lifetime Value:<p>
+  <ol> <p>Simple CLV Calculation; <br>RFM Analysis; <br>Survival Analysis;<br> Cohort Analysis; <br>Churn / CLV Prediction<p><ol>
