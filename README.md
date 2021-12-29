@@ -1,2 +1,3 @@
 ### Data Analytics in Practice
-- Assignment 1: Product Mix Optimization Problem with PuLp
+## Customer Lifetime Value 
+#  RFM Analysis; Survival Analysis; Cohort Analysis; Churn / CLV Prediction
