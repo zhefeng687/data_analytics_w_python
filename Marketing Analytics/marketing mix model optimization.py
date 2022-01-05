@@ -1,3 +1,8 @@
+# Business Problem: Lower than expected return on marketing spent  
+# KPI: ROAS
+# Business Requirements: Budget Optimization to improve ROAS
+
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
